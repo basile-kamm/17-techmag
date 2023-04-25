@@ -74,7 +74,11 @@ h2 {
 }
 
 .intro {
-  padding: 40px 60px 30px;
+  padding: 50px;
+}
+
+.intro p {
+  padding: 10px 0;
 }
 
 .img-intro {
