@@ -22,20 +22,25 @@ header {
   color: var(--light);
 }
 
+.cta {
+  text-decoration: none;
+}
+
 .cta-dark {
   background: var(--dark);
+  color: var(--light);
 }
 
 .cta-light {
   background: var(--light);
-}
-
-.cta-dark a {
-  color: var(--light);
-}
-
-.cta-light a {
   color: var(--dark);
+}
+
+.btn-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
