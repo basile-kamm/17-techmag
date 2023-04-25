@@ -6,6 +6,7 @@ body {
   --dark: #11161d;
   --light: #e6f3ff;
   text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 img {
@@ -47,6 +48,11 @@ main {
   background: var(--light);
 }
 
+.img-intro {
+  width: 20px;
+  margin: auto;
+}
+
 .section-produit {
   background: var(--dark);
 }
@@ -67,7 +73,7 @@ main {
 }
 
 .articles-img {
-  max-width: 40%;
+  width: 100px;
 }
 
 footer p {
